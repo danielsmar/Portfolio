@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Navegador -->
+    <section>
+        <div id="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#projeto">Projetos</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+        <div class="conteudo-texto" id="inicio">
+            <p>Bem-Vindos</p>
+            <p>Eu sou Daniel</p>
+            <p>Estudante de Ciência da Computação</p>
+
+            <button class="btn1">Saiba Mais</button>
+            <button class="btn2">Download CV</button>
+        </div>
+
+    </section>
+
+
+    <!-- Container (sobre mim) -->
+    <div class="w3-content w3-container w3-padding-64" id="sobre">
+        <h3 class="w3-center">Sobre mim</h3>
+        <p class="w3-center"><em>Estudante de Ciência da Computação</em></p>
+        <p>Olá, meu nome é Daniel, mas algumas pessoas me chama de Daniels. Meu primeiro contato com a área da
+            tecnologia
+            foi em 2017 quando comecei aprender sobre rede de computadores e cabeamento estruturado, comecei como
+            ajudante em alguns serviços
+            para algumas lojas grandes mas não demorou muito para aprender e 2 meses depois já estava fazendo todo o
+            serviço sozinho. Com o passar do
+            tempo fui convidado pela equipe de TI da Sá Cavalcante para fazer estágio na empresa e melhorar meus
+            conhecimentos e por fim no segundo semestre de 2021 entrei
+            para o curso de ciência da computação na Universidade Vila Velha(UVV) com o objetivo de ser um profissional
+            mais completo.
+        </p>
+    </div>
+    <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+            <img src="img/daniel2.jpeg" class="img-daniel" alt="Photo of Me">
+        </div>
+
+
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+            <p class="sobre-mim2">Hoje em dia tenho uma empresa juntamente com meu irmão e prestamos serviço de TI e
+                segurança eletrônica para
+                algumas empresas do Espirito Santos, dentre elas as franquias do Grupo Sá Cavalcante(Bob's, Choes,
+                Spoleto, Rick's Burger, Restaurante Terra
+                a Vista) e outras lojas como Ilha do Caranguejo, Farofa Steak House e Blu foodPark.</p>
+        </div>
+    </div>
+    <br><br />
+
+    <!-- galeria -->
+
+    <div class="projetos" id="projeto">
+        <h1 class="titulo-projeto">Projetos</h1>
+        <div>
+            <div class="gallery">
+                <img src="img/rack1.png" alt="rack1" width="600" height="400">
+                <div class="desc">Cabeamento de Rede Estruturado</div>
+            </div>
+
+            <div class="gallery">
+                <img src="img/rack2.png" alt="rack2" width="600" height="400">
+                <div class="desc">Cabeamento de Rede Estruturado</div>
+            </div>
+
+            <div class="gallery">
+                <img src="img/rack3.png" alt="rack1" width="600" height="400">
+                <div class="desc">Cabeamento de Rede Estruturado e CFTV</div>
+            </div>
+
+            <div class="gallery">
+                <img src="img/rack4.png" alt="rack4" width="600" height="400">
+                <div class="desc">Cabeamento de Rede Estruturado e CFTV</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contato" style="margin-bottom:64px">
+        <h2>Contato</h2>
+        <hr class="w3-opacity">
+
+        <div class="w3-section">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Vila Velha, ES</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone: (27) 99688-6562</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: danielmarculano2013@gmail.com</p>
+        </div>
+
+        <!-- Formulário-->
+
+        <p>Para mais informações entre em contato deixando sua mensagem.</p>
+        <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email">
+            </p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Assunto" required
+                    name="Subject"></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Mensagem" required
+                    name="Message"></p>
+            <p>
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> ENVIAR MENSAGEM
+                </button>
+            </p>
+        </form>
+        <!-- End Contact Section -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p><a>Powered by Daniel Marculano</a></p>
+
+    </footer>
+
+</body>
+
+</html>
